@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<mets charset="utf-8">
+		<meta charset="utf-8">
 		<title>Administrator Page</title>
 	</head>
 	<body>
