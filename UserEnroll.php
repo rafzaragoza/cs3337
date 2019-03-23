@@ -2,15 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>User Enroll Page </title>
+<title>User Enroll Page</title>
 </head>
+
 <body>
-<p align="center"> User Enroll Page </p>
+<p align="center">User Enroll Page</p>
 <form action="UserInsert.php" method="post">
 <table align="center">
 <tr>
 <td>
-User name
+User Name
 </td>
 <td>
 <input type="text" name="name" />
@@ -26,11 +27,10 @@ Email
 </tr>
 <tr>
 <td>
-
-</td>
-<td>
-<input type="submit" value="Submit"/>
+<input type="submit" value="submit" />
 </td>
 </tr>
+</table>
+</form>
 </body>
 </html>
