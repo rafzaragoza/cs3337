@@ -2,30 +2,36 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Administrator Page</title>
+<title>Sorting Page</title>
 </head>
 
 <body>
+<?php
+	include("MainMenu.php");
+?>
 
 <?php
 	include("Connect_Database.php");
 ?>
 
 <?php
-	$selectUsers = "select * from users";
-	$results = mysqli_query($connect, $selectUsers);
+	$selectBooks = "select * from books";
+	$results = mysqli_query($connect, $selectBooks);
 ?>
 	
 <table align="center" border="2" width="400">
     <tr>
         <th>
+            Title
+        </th>
+        <th>
             Name
         </th>
         <th>
-            Email
+            Post Time
         </th>
         <th>
-            Delete
+            Book Picture
         </th>
     </tr>
 <?php
@@ -33,17 +39,26 @@
 	{
 		print "<tr>";
 		print "<td>";
+		print ($row["title"]);
+		print "</td>";
+		print "<td>";
 		print ($row["name"]);
 		print "</td>";
 		print "<td>";
-		print ($row["email"]);
+		print ($row["posttime"]);
 		print "</td>";
+		
 		print "<td>";
+		print "<img src='";
+		print $row["picpath"] . "' height=50 width=50>";
+		print "</td>";
+		
+		/*print "<td>";
 		print "<a href='UserDelete.php?";
 		print "email=" . $row["email"] . "'>";
 		print "DELETE";
 		print "</a";
-		print "</td>";
+		print "</td>";*/
 		print "</tr>";
 	}
 ?>

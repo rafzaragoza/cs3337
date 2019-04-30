@@ -6,14 +6,20 @@
 </head>
 
 <body>
+
 <?php
 	include("Connect_Database.php");
 ?>
+
 <?php
-	$userDelete = "delete from users where email='" . 
-	$_GET["email"] . "'";
-	$result = mysqli_query($connect, $userDelete);
-	header("Location: Admin.php");
+	
+	$userInsert = 	"insert into users values('" .
+		$_POST["name"] .
+		"', '" .
+		$_POST["email"] .
+		"')";
+		
+		$result = mysqli_query($connect, $userInsert);
 ?>
 </body>
 </html>
