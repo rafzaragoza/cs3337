@@ -9,6 +9,7 @@
 <?php
 	include("MainMenu.php");
 ?>
+    <h1 align="center">Selling </h1>
 <form action="sellingInsert.php" enctype="multipart/form-data" method="post">
 <table align="center">
 <tr>
@@ -17,8 +18,8 @@ User Name
 </td>
 <td>
 <input type="text" name="name" value="<?php
-										print $_GET['name'];
-										?>"/>
+print $_GET['name'];
+?>"/>
 </td>
 </tr>
 <tr>
@@ -27,8 +28,8 @@ Email
 </td>
 <td>
 <input type="text" name="email" value="<?php
-										print $_GET['email'];
-										?>"/>
+print $_GET['email'];
+?>"/>
 </td>
 </tr>
 

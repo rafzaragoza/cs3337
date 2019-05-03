@@ -1,3 +1,13 @@
+
+h1 {
+    color: black;
+    text-align: center;
+    background-color: yellow;
+}
+body{
+    background-color: cyan;
+}
+
 @charset "utf-8";
 .ul_css
 {
