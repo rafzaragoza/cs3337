@@ -1,4 +1,13 @@
+body{
+    background-color: cyan;
+}
+h1{
+    color:black;
+    text-align: center;
+    background-color: yellow;
+}
 @charset "utf-8";
+
 .ul_css
 {
 	list-style: none;

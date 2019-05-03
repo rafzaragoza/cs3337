@@ -7,6 +7,8 @@
 				'&email=' . $_SESSION['email'];
  #	print $name_email;
 ?>
+<h1> STUDENT BOOK EXCHANGE </h1>
+<body>
 
 <ul class="ul_css">
 <li class="li_css">
@@ -34,3 +36,5 @@
     </div>
  </li>
 </ul>
+</body>
+<h1 align="center">Shopping </h1>
