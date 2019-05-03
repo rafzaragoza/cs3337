@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Sorting Page</title>
+<title>Sorting by Postime</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 ?>
 
 <?php
-	$selectBooks = "select * from books";
+	$selectBooks = "select * from books order by posttime";
 	$results = mysqli_query($connect, $selectBooks);
 ?>
 	
@@ -51,7 +51,7 @@
 		
 		print "<td>";
 		print "<img src='";
-		print $row["picpath"] . "' height=50 width=50>";
+		print $row["picpath"] . "' height=50 width=50>"; 
 		print "</td>";
 		
 		/*print "<td>";

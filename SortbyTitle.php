@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Sorting Page</title>
+<title>Sorting by Title</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 ?>
 
 <?php
-	$selectBooks = "select * from books";
+	$selectBooks = "select * from books order by Title";
 	$results = mysqli_query($connect, $selectBooks);
 ?>
 	
