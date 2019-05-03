@@ -21,4 +21,8 @@
 	<a class="li_css_a" href="profile.php?<?php print $name_email; ?>" > profile
 	</a>
 </li>
+<li class="li_css">
+	<a class="li_css_a" href="forum.php?<?php print $name_email; ?>" > forum
+	</a>
+</li>
 </ul>
