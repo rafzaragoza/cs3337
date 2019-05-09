@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<div class="container" style="background: white; width: 400px; margin-top: 10%">
+<div class="container" style="background: #333; width: 400px; margin-top: 10%; color:#FF0">
 	<h1 class="div_css_h">User Enroll Page</h1>
 	<form action="UserInsert.php" method="post">
 		<table align="center">
@@ -30,7 +30,7 @@
 			</tr>
 			<tr>
 				<td>
-					<input class="btn btn-dark" type="submit" value="submit" />
+					<input class="btn btn-primary" type="submit" value="submit" />
 				</td>
 			</tr>
 		</table>
