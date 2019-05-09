@@ -25,10 +25,10 @@
 		<a class="li_css_a" href="selling.php?<?php print $name_email; ?>" > selling
 		</a>
 	</li>
-	<li class="li_css">
+	<!--<li class="li_css">
 		<a class="li_css_a" href="search.php?<?php print $name_email; ?>" > search
 		</a>
-	</li>
+	</li>-->
 	<li class="li_css">
 		<a class="li_css_a" href="wishlist.php?<?php print $name_email; ?>" > wish list
 		</a>
@@ -36,5 +36,13 @@
 	<li class="li_css">
 		<a class="li_css_a" href="forum.php?<?php print $name_email; ?>" > forum
 		</a>
+	</li>
+	<li class="li_css">
+		<form class="input-group mb-3" action="Search.php" method="post" style="margin-top: 6px">
+			<input type="text" class="form-control" placeholder="Enter a Title or Name" name="info"/>
+			<div class="input-group-append">
+				<input class="btn btn-primary" type="submit" value="Search"/>
+			</div>
+		</form>
 	</li>
 </ul>
