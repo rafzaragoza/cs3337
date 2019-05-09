@@ -2,42 +2,42 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="MainMenu.css" type="text/css" rel="stylesheet" />
 <title>Book Exchange Login Page</title>
-    <h1 style= "background-color: yellow"> STUDENT BOOK EXCHANGE </h1>
-    <h2 style="align-content: center"> LOGIN PAGE</h2>
 </head>
 
-<body style="background-color: lightcyan">
-
-    
-<form action="login.php" method="post">
-<table align="center">
-	<tr>
-		<td>
-			Name
-		</td>
-		<td>
-			<input type="text" name="name"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			Email
-		</td>
-		<td>
-			<input type="text" name="email"/>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<input  type="submit" value="Submit" />
-		</td>
-	</tr>
-</table>
-</form>
-	<p align="center">
-	<a href="UserEnroll.php"  style= "background-color: gold"/>New User to Enroll
-	</p>
+<body>
+<div class="container" style="background: white; width: 400px; margin-top: 10%">
+	<h1 class="text-center">Login</h1>
+	<form action="login.php" method="post">
+	<table align="center">
+		<tr>
+			<td>
+				name
+			</td>
+			<td>
+				<input type="text" name="name"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				email
+			</td>
+			<td>
+				<input type="text" name="email"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input class="btn btn-dark" type="submit" value="Login"/>
+			</td>
+		</tr>
+	</table>
+	</form>
+		<p align="center">
+		<a href="UserEnroll.php" />New User to Enroll
+		</p>
+</div>
 </body>
- 
 </html>
