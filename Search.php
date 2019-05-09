@@ -24,34 +24,36 @@
 		exit;
 	}
 ?>
+<div class="div_css">
+	<h1 class="div_css_h">Search Results</h1>
+	<table align="center" border="2" width="400">
+		<tr>
+			<th>Title</th>
+			<th>Name</th>
+			<th>Post Time</th>
+			<th>Book Picture</th>
+		</tr>
 
-<table align="center" border="2" width="400">
-	<tr>
-		<th>Title</th>
-		<th>Name</th>
-		<th>Post Time</th>
-		<th>Book Picture</th>
-	</tr>
-
-<?php
-		while($row = mysqli_fetch_assoc($results))
-	{
-		print "<tr>";
-		print "<td>";
-		print ($row["title"]);
-		print "</td>";
-		print "<td>";
-		print ($row["name"]);
-		print "</td>";
-		print "<td>";
-		print ($row["posttime"]);
-		print "</td>";
-		print "<td>";
-		print "<img scr ='";
-		print $row["picpath"] . "' height=50 width=50 >";
-		print "</td>";
-		print "</tr>";
-	}
-?>
+	<?php
+			while($row = mysqli_fetch_assoc($results))
+		{
+			print "<tr>";
+			print "<td>";
+			print ($row["title"]);
+			print "</td>";
+			print "<td>";
+			print ($row["name"]);
+			print "</td>";
+			print "<td>";
+			print ($row["posttime"]);
+			print "</td>";
+			print "<td>";
+			print "<img scr ='";
+			print $row["picpath"] . "' height=50 width=50 >";
+			print "</td>";
+			print "</tr>";
+		}
+	?>
+</div>
 </body>
 </html>
