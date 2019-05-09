@@ -14,7 +14,8 @@
 		<p>Would you like to:</p>
 		<a class="btn btn-primary" href="shopping.php?<?php print $name_email; ?>">Buy a book</a><br/><br/>
 		<a class="btn btn-primary" href="selling.php?<?php print $name_email; ?>">Sell a book</a><br/><br/>
-		<a class="btn btn-primary" href="forum.php?<?php print $name_email; ?>">Talk on the forum</a><br/>
+		<a class="btn btn-primary" href="forum.php?<?php print $name_email; ?>">Talk on the forum</a><br/><br/>
+		<a class="btn btn-primary" href="wishlist.php?<?php print $name_email; ?>">View your wish list</a><br/><br/>
 	</div>
 </body>
 </html>
