@@ -1,21 +1,16 @@
-
-h1 {
-    color: black;
-    text-align: center;
-    background-color: yellow;
-}
-body{
-    background-color: cyan;
-}
-
 @charset "utf-8";
-.ul_css
-{
+body{
+	background-image:url(images/background.jpg);
+	background-size:100%;
+}
+
+.ul_css{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
+	align-items: center;
 }
 .li_css_a
 {
@@ -24,9 +19,29 @@ body{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+	margin-bottom: 8px;
 }
 .li_css
 {
 	float: left;
 	border-right: 1px solid #0F6;
+}
+.li_css_h
+{
+	display: block;
+	color: #FF0;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.div_css
+{
+	background: #FFF;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+.div_css_h
+{
+	text-align: center;
 }
