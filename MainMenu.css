@@ -24,7 +24,8 @@ body{
 .li_css
 {
 	float: left;
-	border-right: 1px solid #0F6;
+	border-right: 1px solid #FF0;
+	border-bottom: 1px solid #FF0
 }
 .li_css_h
 {
@@ -36,10 +37,11 @@ body{
 }
 .div_css
 {
-	background: #FFF;
+	background: #333;
 	margin-right: 25%;
 	margin-left: 25%;
 	margin-top: 5%;
+	color: #FF0
 }
 .div_css_h
 {
