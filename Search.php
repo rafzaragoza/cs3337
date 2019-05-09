@@ -26,7 +26,7 @@
 ?>
 <div class="div_css">
 	<h1 class="div_css_h">Search Results</h1>
-	<table align="center" border="2" width="400">
+	<table align="center" border="2" width="400" style="color:#FF0;">
 		<tr>
 			<th>Title</th>
 			<th>Name</th>
