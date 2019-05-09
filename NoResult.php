@@ -9,7 +9,9 @@
 	include("Connect_Database.php");
 	include("MainMenu.php");
 ?>
-<h3 align="center"> No Result Found</h3>
+<div class="div_css">
+	<h1 class="div_css_h"> No Result Found</h1>
+</div>
 <!--<?php
 	$selectUsers = "select * from users";
 	$results = mysqli_query($connect, $selectUsers);
