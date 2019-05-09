@@ -26,6 +26,14 @@
 		</a>
 	</li>
 	<li class="li_css">
+		<a class="li_css_a" href="search.php?<?php print $name_email; ?>" > search
+		</a>
+	</li>
+	<li class="li_css">
+		<a class="li_css_a" href="wishlist.php?<?php print $name_email; ?>" > wish list
+		</a>
+	</li>
+	<li class="li_css">
 		<a class="li_css_a" href="forum.php?<?php print $name_email; ?>" > forum
 		</a>
 	</li>
